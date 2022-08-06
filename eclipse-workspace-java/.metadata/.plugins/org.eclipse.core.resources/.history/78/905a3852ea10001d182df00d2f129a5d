@@ -1,0 +1,15 @@
+package simplilearn.domain;
+
+public class Customer {
+
+	private String firstname;
+	private String lastname;
+	private Account account;// Customer has an account
+	
+	
+	//Declare public constructor that take 2 params
+	public Customer(String f, String l) {
+		firstname =f ;
+		lastname = l;
+	}
+}

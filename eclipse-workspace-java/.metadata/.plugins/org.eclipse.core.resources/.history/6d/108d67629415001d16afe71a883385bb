@@ -1,0 +1,26 @@
+package simplilearn.examples;
+
+public class MethodOverloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		addValue(10,20);
+		addValue(10,20,30);
+		addValue("One","Two");
+
+	}
+	
+	private static void addValue(int x, int y) {
+		System.out.println(x+y);
+	}
+	
+	private static void addValue(int x, int y, int z) {
+		System.out.println(x+y);
+	}
+	
+	private static void addValue(String x, String y) {
+		System.out.println(x+y);
+	}
+	
+
+}

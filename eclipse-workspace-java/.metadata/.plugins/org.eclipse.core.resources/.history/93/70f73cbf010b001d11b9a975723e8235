@@ -1,0 +1,19 @@
+package DEMO;
+import java.util.Scanner;
+public class MathOperation {
+	
+	public static void main( String[] args) {
+		int n1;
+		float n2;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter first number");
+		n1 = sc.nextInt();
+		System.out.println("Enter Second number");
+		n2 = sc.nextFloat();
+		
+		int n1 = 12;float n2 =20.2f;
+		System.out.println("Sum = " + (n1+n2));
+		
+	}
+
+}

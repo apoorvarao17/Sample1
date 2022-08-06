@@ -1,0 +1,17 @@
+
+public class Account {
+	
+	//declare an instance variable with default access.
+	private double balance;
+	
+	public Account(double initBal){
+		balance = initBal;
+		
+	}
+	
+	public double get_balance()
+	{
+		return balance;
+	}
+
+}

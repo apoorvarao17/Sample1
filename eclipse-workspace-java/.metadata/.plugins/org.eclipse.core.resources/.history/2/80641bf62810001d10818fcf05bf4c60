@@ -1,0 +1,23 @@
+
+public class Account {
+	
+	//declare an instance variable with default access.
+	private double balance;
+	
+	public Account(double initBal){
+		if(initBal > 0)
+		{
+			balance = initBal;
+		}
+		else
+		{
+			System.out.println("Invalid balance");
+		}
+	}
+	
+	public double get_balance()
+	{
+		return balance;
+	}
+
+}

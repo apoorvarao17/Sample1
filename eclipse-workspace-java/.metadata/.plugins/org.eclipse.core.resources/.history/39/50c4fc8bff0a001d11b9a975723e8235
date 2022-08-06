@@ -1,0 +1,11 @@
+package DEMO;
+
+public class MathOperation {
+	
+	public static void main( String[] args) {
+		int n1 = 12;float n2 =20.2f;
+		System.out.println("Sum = " + (n1+n2));
+		
+	}
+
+}

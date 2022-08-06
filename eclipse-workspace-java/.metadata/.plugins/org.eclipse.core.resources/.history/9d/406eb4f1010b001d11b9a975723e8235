@@ -1,0 +1,18 @@
+package DEMO;
+import java.util.Scanner;
+public class MathOperation {
+	
+	public static void main( String[] args) {
+		int n1;
+		float n2;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter first number");
+		n1 = sc.nextInt();
+		System.out.println("Enter Second number");
+		n2 = sc.nextFloat();
+		
+		System.out.println("Sum = " + (n2%n1));
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class Account {
+	
+	//declare an instance variable with default access.
+	double balance;
+	
+
+}
